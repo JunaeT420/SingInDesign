@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lgo"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_marginTop="170dp"
+        >
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:hint="User Name"
+            android:textColorHint="#fff"
+            android:padding="6dp"
+            android:background="@drawable/edittextstyle"
+
+            />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:hint="Password"
+            android:padding="6dp"
+            android:textColorHint="#fff"
+            android:background="@drawable/edittextstyle"
+            android:layout_gravity="center"
+
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Sign Up"
+            android:textColor="#fff"
+            android:background="@drawable/buttonstyleseclector"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
